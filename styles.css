@@ -1,0 +1,34 @@
+*{box-sizing:border-box}:root{--n:#0b1f3a;--n2:#16315a;--g:#b08a2e;--gl:#f6efdc;--t:#1d2733;--m:#56606d;--l:#e3e7ee;--bg:#f7f8fb}
+html{scroll-behavior:smooth}body{margin:0;font:1rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--t);background:#fff}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;color:var(--n);line-height:1.2;margin:0 0 .6em}
+h1{font-size:clamp(2rem,5vw,3.1rem)}h2{font-size:clamp(1.5rem,3vw,2.1rem)}h3{font-size:1.2rem}
+p{margin:0 0 1em;max-width:68ch}a{color:var(--n2)}[hidden]{display:none!important}
+.w{max-width:1100px;margin:0 auto;padding:0 1.25rem}.sec{padding:4rem 0}.alt{background:var(--bg)}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.5rem;z-index:99}
+:focus-visible{outline:3px solid var(--g);outline-offset:2px}
+.hd{background:var(--n);position:sticky;top:0;z-index:20}.hdin{display:flex;align-items:center;justify-content:space-between;min-height:64px;gap:1rem}
+.logo{color:#fff;text-decoration:none;font:700 1.15rem Georgia,serif}.logo span{color:var(--g);font-weight:400}
+nav{display:flex;gap:1.1rem;align-items:center}nav a{color:#dfe6f2;text-decoration:none;padding:.4rem 0;border-bottom:2px solid transparent}
+nav a:hover,nav a[aria-current]{color:#fff;border-color:var(--g)}nav a.cta{background:var(--g);color:#0b1f3a;padding:.5rem 1rem;border-radius:4px;border:0;font-weight:600}
+.mb{display:none;background:0;border:1px solid #6d7f9c;color:#fff;padding:.45rem .8rem;border-radius:4px;font:inherit}
+.hero{background:var(--n);color:#dfe6f2;padding:4.5rem 0}.hero h1{color:#fff}.hero .w{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;align-items:center}
+.ledger{background:#fff;border-radius:6px;padding:1.2rem 1.4rem;color:var(--t);box-shadow:0 0 0 1px var(--g)}
+.ledger div{display:flex;justify-content:space-between;padding:.55rem 0;border-bottom:1px solid var(--l);font-variant-numeric:tabular-nums}.ledger div:last-child{border:0;font-weight:700;border-top:2px solid var(--n)}
+.ledger small{display:block;color:var(--m);margin-top:.8rem}
+.btn{display:inline-block;padding:.8rem 1.4rem;border-radius:4px;text-decoration:none;font-weight:600;border:2px solid var(--g);background:var(--g);color:var(--n);margin:0 .6rem .6rem 0;font-size:1rem;cursor:pointer}
+.btn:hover{background:#c49a35}.btn.o{background:transparent;color:inherit;border-color:currentColor}.btn.o:hover{background:rgba(127,127,127,.15)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.4rem}
+.card{background:#fff;border:1px solid var(--l);border-left:4px solid var(--g);padding:1.4rem;border-radius:4px}.card p{margin:0 0 .8rem}
+.card.pk{border-left-color:var(--n)}ul{padding-left:1.2rem}li{margin-bottom:.35rem}
+.note{background:var(--gl);border-left:4px solid var(--g);padding:1rem 1.2rem;border-radius:4px}.note p{margin:0}
+.band{background:var(--n);color:#dfe6f2;text-align:center;padding:3.5rem 0}.band h2{color:#fff}.band p{margin:0 auto 1.2rem}
+details{border:1px solid var(--l);border-radius:4px;padding:.8rem 1rem;margin-bottom:.7rem;background:#fff}summary{cursor:pointer;font-weight:600;color:var(--n)}
+.pg{background:var(--n);color:#dfe6f2;padding:3rem 0}.pg h1{color:#fff;margin:0 0 .4em}.pg p{margin:0}
+form{display:grid;gap:1rem;max-width:680px}label{font-weight:600;display:block;margin-bottom:.25rem}
+input,select,textarea{width:100%;padding:.7rem;border:1px solid #8a94a3;border-radius:4px;font:inherit}input[type=checkbox]{width:auto;margin-right:.5rem}
+fieldset{border:1px solid var(--l);padding:1rem;border-radius:4px}.msg{padding:1rem;border-radius:4px}.ok{background:#e4f3e8}.err{background:#fbe6e6}.info{background:var(--gl)}
+.hp{position:absolute;left:-999px}
+footer{background:#081628;color:#b9c4d6;padding:2.5rem 0;font-size:.92rem}footer a{color:#e8d49c}footer p{max-width:none}
+@media(max-width:800px){.mb{display:block}nav{display:none;position:absolute;left:0;right:0;top:64px;background:var(--n);flex-direction:column;align-items:flex-start;padding:1rem 1.25rem}nav.open{display:flex}.hero .w{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(prefers-reduced-motion:no-preference){.hero .w>div{animation:in .7s ease both}@keyframes in{from{opacity:0;transform:translateY(10px)}}}
