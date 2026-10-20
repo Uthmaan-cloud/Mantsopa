@@ -1,6 +1,6 @@
 /* EDIT THIS FILE ONLY to change contact details. */
 window.SITE = {
-  email: "kgbtselanyane@gmail.com",   // replace with a dedicated business email later
+  email: "mantsopafinancialservices@gmail.com",   // business email
   whatsapp: "",                       // digits only with country code, e.g. 27XXXXXXXXX. Blank = WhatsApp buttons stay hidden
   area: "Alberton and surrounding Gauteng areas",
   social: { facebook: "", linkedin: "", instagram: "" },   // optional, not shown yet
