@@ -12,8 +12,8 @@ A static website (HTML, CSS, JavaScript). No build step, no paid tools, no track
 2. Click **New repository**, name it (for example `mantsopa`), choose **Public**, click **Create repository**.
 3. Click **uploading an existing file**, drag in ALL the files from this folder (not the folder itself), click **Commit changes**.
 4. Go to **Settings > Pages**. Under Branch choose `main` and `/ (root)`, click **Save**.
-5. After a minute the site is live at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`.
-6. Open `sitemap.xml` and `robots.txt` on GitHub, click the pencil icon, and replace `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/` with your real address. Do the same in the `canonical`/`og:url` lines if you want them exact (search for `YOUR-USERNAME` in each page).
+5. After a minute the site is live at `https://uthmaan-cloud.github.io/Mantsopa/`.
+6. Open `sitemap.xml` and `robots.txt` on GitHub, click the pencil icon, and replace `https://uthmaan-cloud.github.io/Mantsopa/` with your real address. Do the same in the `canonical`/`og:url` lines if you want them exact (search for `YOUR-USERNAME` in each page).
 
 ## Update contact details
 On GitHub open `config.js`, click the pencil icon, change the value, click **Commit changes**. For WhatsApp enter digits only with country code, for example `27XXXXXXXXX`. Until you add a number, WhatsApp buttons stay hidden. Do not invent a number.
